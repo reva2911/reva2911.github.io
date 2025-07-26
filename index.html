@@ -6,62 +6,97 @@
   <title>Reva Purohit - Resume</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
     }
+
     .container {
       max-width: 900px;
-      margin: 30px auto;
-      background: white;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 40px auto;
+      background-color: #1f1f1f;
+      padding: 40px;
       border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
     }
-    h1, h2 {
-      color: #333;
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ffffff;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
     }
+
+    .contact {
+      margin-bottom: 30px;
+    }
+
+    .contact span {
+      display: block;
+      color: #bbb;
+      margin-bottom: 5px;
+    }
+
     .section {
       margin-bottom: 30px;
     }
+
     .section-title {
-      border-bottom: 2px solid #ddd;
+      font-size: 1.5rem;
+      color: #00bcd4;
       margin-bottom: 10px;
+      border-bottom: 1px solid #333;
       padding-bottom: 5px;
-      font-size: 1.5em;
     }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
     ul {
       padding-left: 20px;
     }
-    .contact {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 20px;
+
+    ul li::marker {
+      color: #00bcd4;
     }
-    .contact span {
-      margin-bottom: 5px;
+
+    a {
+      color: #00bcd4;
+      text-decoration: none;
     }
-    .two-column {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+
+    a:hover {
+      text-decoration: underline;
     }
-    .column {
-      flex: 1;
-      min-width: 250px;
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 1.3rem;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Reva Purohit</h1>
-    
+
     <div class="contact">
       <span>📞 +91 8591685331</span>
-      <span>📧 reva.manish.purohit@gmail.com</span>
+      <span>📧 <a href="mailto:reva.manish.purohit@gmail.com">reva.manish.purohit@gmail.com</a></span>
       <span>📍 Lokhandwala, Kandivali (E), Mumbai</span>
-      <span>Instagram: @arevaaaah</span>
+      <span>Instagram: <a href="https://instagram.com/arevaaaah" target="_blank">@arevaaaah</a></span>
     </div>
 
     <div class="section">
